@@ -36,7 +36,7 @@ Instructions to run code
 -
 1. Clone the repository.
 ```bash
-git clone https://github.com/CameronNicholas-Foley/IJC437-digital-connectivity-local-employment-growth.git
+https://github.com/CameronNicholas-Foley/IJC437-digital-connectivity-local-employment-growth.git
 ```
 2. Open RStudio, set the root of the cloned repository folder as the working directory (File -> New Project -> Version Control -> Git).
 3. Run `1_libraries.R` and install the packages if required.
