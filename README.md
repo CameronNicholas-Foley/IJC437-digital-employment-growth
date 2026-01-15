@@ -32,7 +32,7 @@ Code
   -  Final model evaluation and summary
  - Tables, figures, and trained model outputs are saved automatically in the `outputs` directory once the code is executed
 
-Instructions to run code
+Instructions to Run Code
 -
 1. Clone the repository:
 ```bash
@@ -43,7 +43,7 @@ https://github.com/CameronNicholas-Foley/IJC437-digital-connectivity-local-emplo
 4. Execute the remaining scripts in the numerical order as labelled.
 5. Outputs will be saved in the `outputs/` directory.
 
-IJC445 project link
+IJC445 Project Link
 -
 The IJC445 coursework and outputs are available here:
 https://github.com/CameronNicholas-Foley/IJC445-Yorkshire-structural-profile.git
