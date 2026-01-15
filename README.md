@@ -1,2 +1,49 @@
 # IJC437-digital-connectivity-local-employment-growth
-Digital Connectivity Data and Employment Growth Modelling Using Yorkshire and The Humber Local Authorities | IJC437 Introduction to Data Science Coursework
+Assessing the Value of Yorkshire and The Humber’s Digital Connectivity Data in Employment Growth Predictive Modelling | IJC437 Introduction to Data Science Coursework.
+
+Overview
+-
+Territorial-level employment growth is a highly complex outcome shaped by industry, geography, and human capital - each influenced by contemporary and historical dynamics. As digital connectivity increasingly affects these relationships, investigating its predictive value in employment growth predictive modelling is prompt. Using Yorkshire and The Humber, a region with a strong manufacturing history, this project explores the data characteristics of digital connectivity data in relation to employment growth and whether it improves the performance of random forest modelling.
+
+Research Aim
+-
+To assess the predictive power of digital connectivity data within a structural regional context in shaping employment growth across local authorities in Yorkshire and The Humber.
+
+Research Questions
+-
+- RQ1: To what extent are digital and structural factors associated with employment growth in Yorkshire and the Humber?
+
+- RQ2: How much predictive value does digital connectivity data add in employment growth models alongside broader regional indicators?
+
+Key Findings
+-
+- Exploratory data analysis revealed local authorities have experienced temporal change across all structural characteristics, particularly after the COVID-19 shock. Furthermore, employment growth presented substantial volatility.
+- Local authorities with high employment growth displayed industrial diversity compared to their lower growth counterparts. Higher educational attainment was also prevalent within a derived higher employment growth group. Digital connectivity showed similar trajectories in download speeds while upload speeds displayed volatility.
+- Out-of-sample evaluation of two models inidcated digital connectivity data marginally improves model performance; however, both Base and Digital models reported weak predictability.
+
+Code
+-
+- All data inputs are stored in the `raw_data/` directory (trimmed data sets to reduce file size are commented in `3_data_processing.R`
+- All R scripts are in the `scripts/` directory and organised to reflect the following workflow:
+  - Library loading
+  -  Data processing (with function and global object storage in seperate `2_functions_global_objects.R` script)
+  -  Exploratory data analysis
+  -  Festure engineering and importance modelling
+  -  Final model evaluation and summary
+ - Tables, figures, and trained model outputs are saved automatically in the `outputs` directory once the code is executed
+
+Instructions to run code
+-
+1. Clone the repository.
+```bash
+git clone https://github.com/CameronNicholas-Foley/IJC437-digital-connectivity-local-employment-growth.git
+```
+2. Open RStudio, set the root of the cloned repository folder as the working directory (File -> New Project -> Version Control -> Git).
+3. Run `1_libraries.R` and install the packages if required.
+4. Execute the remaining scripts in the numerical order as labelled.
+5. Outputs will be saved in the `outputs/` directory.
+
+IJC445 project link
+-
+The IJC445 coursework and outputs are available here:
+https://github.com/CameronNicholas-Foley/IJC445-Yorkshire-structural-profile.git
