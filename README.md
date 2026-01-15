@@ -34,7 +34,7 @@ Code
 
 Instructions to run code
 -
-1. Clone the repository.
+1. Clone the repository:
 ```bash
 https://github.com/CameronNicholas-Foley/IJC437-digital-connectivity-local-employment-growth.git
 ```
