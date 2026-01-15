@@ -28,7 +28,7 @@ Code
   - Library loading
   -  Data processing (with function and global object storage in seperate `2_functions_global_objects.R` script)
   -  Exploratory data analysis
-  -  Festure engineering and importance modelling
+  -  Feature engineering and importance modelling
   -  Final model evaluation and summary
  - Tables, figures, and trained model outputs are saved automatically in the `outputs` directory once the code is executed
 
