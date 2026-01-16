@@ -23,7 +23,7 @@ Key Findings
 
 Code
 -
-- All data inputs are stored in the `raw_data/` directory (trimmed data sets to reduce file size are commented in `3_data_processing.R`
+- All data inputs are stored in the `raw_data/` directory (trimmed data sets to reduce file size are commented in `3_data_processing.R`).
 - All R scripts are in the `scripts/` directory and organised to reflect the following workflow:
   - Library loading.
   -  Data processing (with function and global object storage in seperate `2_functions_global_objects.R` script).
