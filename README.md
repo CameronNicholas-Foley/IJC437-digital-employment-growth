@@ -47,4 +47,4 @@ https://github.com/CameronNicholas-Foley/IJC437-digital-connectivity-local-emplo
 IJC445 Project Link
 -
 The IJC445 coursework and outputs are available here:
-https://github.com/CameronNicholas-Foley/IJC445-Yorkshire-structural-profile.git
+https://github.com/CameronNicholas-Foley/IJC445-Yorkshire-structural-profile
