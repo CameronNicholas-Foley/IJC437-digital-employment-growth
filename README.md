@@ -40,7 +40,7 @@ Instructions to Run Code
 https://github.com/CameronNicholas-Foley/IJC437-digital-connectivity-local-employment-growth.git
 ```
 2. Open RStudio, set the cloned repository as the repository URL (File -> New Project -> Version Control -> Git).
-3. Run `1_libraries.R` and install the packages if required.
+3. Run `1_libraries_IJC437.R` and install the packages if required.
 4. Execute the remaining scripts in the numerical order as labelled.
 5. Outputs will be saved in the `outputs/` directory.
 
