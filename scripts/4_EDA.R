@@ -235,7 +235,7 @@ demography_group_cols <- c("sum_births" = "#59A14F",
 #Figure 7: Regional Business Births, Deaths, and Net Change Over Time
 eda_demography_summary_plot <- year_demography_summary%>%
   ggplot(aes(x = year))+
-  geom_line(aes(y = sum_births, colour = "Births"), linewidth = 1.2)+ #need to make lines thicker without linewidth in legend---------change colour too
+  geom_line(aes(y = sum_births, colour = "Births"), linewidth = 1.2)+
   geom_line(aes(y = sum_deaths, colour = "Deaths"), linewidth = 1.2)+
   geom_line(aes(y = sum_net_business, colour = "Net Business"), linewidth = 1.2)+
   scale_colour_manual(values = c("#59A14F", "#E15759", "#4E78A7"))+
@@ -292,3 +292,4 @@ eda_lin_test_plot <- lin_test_df%>% #----------------FIX THIS
 print(eda_lin_test_plot)
 ggsave("figure8_eda.png", plot = eda_lin_test_plot, path = "outputs/figures",
        height = 541, width = 865, units = "px", dpi = 96)
+
