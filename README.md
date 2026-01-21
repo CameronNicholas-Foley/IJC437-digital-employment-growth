@@ -50,7 +50,7 @@ Instructions to Run Code
 2. Click the **Code** dropdown and select **Download ZIP**.
 3. Extract the ZIP file to a local directory.
 4. Open RStudio, select **File -> New Project -> Existing Directory.**
-5. Navigate to the extracted ZIP file; the `Outputs/`, `raw_data/`, and `scripts/` directories should be visible.
+5. Navigate to the extracted ZIP file until the `Outputs/`, `raw_data/`, and `scripts/` directories are visible.
 6. Click **Create Project**.
 7. Run `1_libraries_IJC437.R` and install the packages if required.
 8. Execute the remaining scripts in the numerical order as labelled.
