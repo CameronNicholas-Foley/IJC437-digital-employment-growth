@@ -99,7 +99,7 @@ eda_dig_dispersion_plot <- data_eda%>%
   ggplot(aes(x = factor(year), y = average_download_speed_mbit_s))+
   geom_boxplot(fill = "#00BFC4")+
   labs(x = "Year",
-       y = "Mean Download Speed (Mbit/s)",
+       y = "Download Speeds (Mbit/s)",
        caption = "Ofcom Connected Nations (2015-2023)")+
   theme_minimal()+
   theme(axis.title.x = element_text(face = "bold"),
@@ -292,4 +292,5 @@ eda_lin_test_plot <- lin_test_df%>% #----------------FIX THIS
 print(eda_lin_test_plot)
 ggsave("figure8_eda.png", plot = eda_lin_test_plot, path = "outputs/figures",
        height = 541, width = 865, units = "px", dpi = 96)
+
 
