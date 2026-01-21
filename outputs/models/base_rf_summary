@@ -1,9 +1,0 @@
-
-Call:
- randomForest(formula = emp_growth_pct ~ ., data = base_train,      importance = TRUE) 
-               Type of random forest: regression
-                     Number of trees: 500
-No. of variables tried at each split: 3
-
-          Mean of squared residuals: 7.394743
-                    % Var explained: 4.73
