@@ -35,14 +35,26 @@ Code
 
 Instructions to Run Code
 -
-1. Clone the repository:
-```bash
-https://github.com/CameronNicholas-Foley/IJC437-digital-connectivity-local-employment-growth.git
-```
-2. Open RStudio, set the cloned repository as the repository URL (File -> New Project -> Version Control -> Git).
-3. Run `1_libraries_IJC437.R` and install the packages if required.
-4. Execute the remaining scripts in the numerical order as labelled.
-5. Outputs will be saved in the `outputs/` directory.
+**Option A: With Git Installed.**
+  1. Clone the repository:
+  ```bash
+  https://github.com/CameronNicholas-Foley/IJC437-digital-employment-growth.git
+  ```
+  2. Open RStudio, set the cloned repository as the repository URL **(File -> New Project -> Version Control -> Git)**.
+  3. Run `1_libraries_IJC437.R` and install the packages if required.
+  4. Execute the remaining scripts in the numerical order as labelled.
+  5. Outputs will be saved in the `outputs/` directory.
+
+**Option B: ZIP Download (Without Git)**.
+1. Navigate to the top of the repository.
+2. Click the **Code** dropdown and select **Download ZIP**.
+3. Extract the ZIP file to a local directory.
+4. Open RStudio, select **File -> New Project -> Existing Directory.**
+5. Navigate to the extracted ZIP file and where `Outputs/`, `raw_data/`, and `scripts/` are visible.
+6. Click **Create Project**.
+7. Run `1_libraries_IJC437.R` and install the packages if required.
+8. Execute the remaining scripts in the numerical order as labelled.
+9. Outputs will be saved in the `outputs/` directory.  
 
 IJC445 Project Link
 -
